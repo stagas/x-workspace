@@ -21,7 +21,7 @@ export const WorkspaceWindowControl = ({ action, title, children }: {
   action?: () => void
   title?: string
   children?: JSX.Element
-}) => (
+}): JSX.Element => (
   <a
     part="control"
     title={title}
