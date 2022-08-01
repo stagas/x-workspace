@@ -3,7 +3,7 @@
   "author": "stagas",
   "short": "stagas/x-workspace",
   "description": "Workspace Web Component.",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -80,11 +80,11 @@
     "everyday-types": "^1.0.0",
     "everyday-utils": "^1.0.0",
     "icon-svg": "^3.0.2",
-    "immutable-map-set": "^0.0.1",
-    "sigl": "^0.0.9",
-    "x-context-menu": "^0.0.3",
+    "immutable-map-set": "^1.0.0",
+    "sigl": "^1.0.0",
+    "x-context-menu": "^1.0.0",
     "x-knob": "^2.0.0",
-    "x-popup": "^0.0.2",
-    "x-surface": "^0.0.3"
+    "x-popup": "^1.0.0",
+    "x-surface": "^1.0.0"
   }
 }
