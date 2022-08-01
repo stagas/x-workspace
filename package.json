@@ -79,10 +79,10 @@
   "dependencies": {
     "everyday-types": "^1.0.0",
     "everyday-utils": "^1.0.0",
-    "icon-svg": "^3.0.4",
+    "icon-svg": "^3.0.5",
     "immutable-map-set": "^1.0.0",
     "sigl": "^1.0.0",
-    "x-context-menu": "^1.0.0",
+    "x-context-menu": "^1.0.1",
     "x-knob": "^3.0.0",
     "x-popup": "^1.0.0",
     "x-surface": "^1.0.0"
