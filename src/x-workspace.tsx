@@ -6,7 +6,7 @@ import type { ValuesOf } from 'everyday-types'
 import { ImmMap, ImmSet } from 'immutable-map-set'
 import { onContextMenu } from 'x-context-menu'
 import { KnobElement } from 'x-knob'
-import { PopupElement, PopupSceneLocal } from 'x-popup'
+import { PopupElement, PopupScene } from 'x-popup'
 import { SurfaceElement, SurfaceState } from 'x-surface'
 
 export type { ImmMap, ImmSet }
@@ -54,9 +54,9 @@ export class WorkspaceElement extends HTMLElement {
     }
   ) as $.ChildOf<WorkspaceWindowElement>[]
 
-  labelsScene = $(this).reduce(({ surface }) => new PopupSceneLocal(surface))
+  labelsScene = $(this).reduce(({ surface }) => new PopupScene(surface))
 
-  contextMenusScene = $(this).reduce(({ surface }) => new PopupSceneLocal(surface))
+  contextMenusScene = $(this).reduce(({ surface }) => new PopupScene(surface))
   ContextMenu?: () => JSX.Element
   onContextMenu?: (
     Options: (props: { event: MouseEvent }) => JSX.Element,
