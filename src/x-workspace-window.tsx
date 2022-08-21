@@ -143,6 +143,12 @@ export class WorkspaceWindowElement extends $(SurfaceItemElement) {
                     surface.centerItem?.(host as unknown as SurfaceItemElement)
                   }
                 }}
+                onpointerenter={() => {
+                  surface.hoveringItem = host
+                }}
+                onpointerleave={() => {
+                  if (surface.hoveringItem === host) surface.hoveringItem = null
+                }}
                 onpointerdown={e => {
                   if (!(e.buttons & $.MouseButton.Left)) return
 
